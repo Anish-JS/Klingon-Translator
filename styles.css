@@ -1,71 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-:root{
-    --primary-color:#EF4444;
+:root {
+  --primary-color: #ef4444;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Roboto';
-    background-color: #E5E7EB;
+  margin: 0;
+  font-family: "Roboto";
+  background-color: #e5e7eb;
 }
 
-    
-
 nav {
-    text-align: center;
-    margin-bottom: 2rem;
-    /* background-color: var(--primary-color); */
-   
+  text-align: center;
+  margin-bottom: 2rem;
+  /* background-color: var(--primary-color); */
 }
 
 main {
-    margin: auto;
-    padding: 1rem;
-    max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  max-width: 600px;
 }
 
 textarea {
-    display: block;
-    width: 100%;
-    height: 20vh;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    font-family: inherit;
-    font-size: large;
-    background-color: inherit;
-
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: large;
+  background-color: inherit;
 }
 
-#btn-translate{
-    border: none;
-    margin: 1rem 0rem;
-    padding: 1rem 2rem;
-    font-size: large;
-
+#btn-translate {
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  cursor: pointer;
 }
 
 #output {
-    border: 1px solid black;
-    width: 100%;
-    height: 20vh;
-    padding: 0.5rem;
+  border: 1px solid black;
+  width: 100%;
+  height: 20vh;
+  padding: 0.5rem;
 }
 
 footer {
-    text-align: center;
-    width: 100%;
-    padding: 1rem;
-    
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
 }
 
 p {
-    max-width: 600px;
-    margin: auto;
-    font-size: 110%;
+  max-width: 600px;
+  margin: auto;
+  font-size: 110%;
 }
-
