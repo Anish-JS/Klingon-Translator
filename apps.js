@@ -14,8 +14,8 @@ const ConstructApi = (text) => `${serviceURL}?text=${text}`;
 const errorHandler = (error) => console.log("error occured: ", error);
 
 const clickEventHandler = (text) => {
-  let text = inputTxt.value;
-  fetch(ConstructApi(text))
+  let inputText = inputTxt.value;
+  fetch(ConstructApi(inputText))
     .then((response) => response.json())
     .then((json) => {
       let translatedText = json.contents.translated;
